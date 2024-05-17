@@ -10945,6 +10945,33 @@ p.lead {
   font-size: 3rem;
 }
 
+
+section.header-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  max-width: 75rem;
+}
+section.header-section .header-section-content {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  section.header-section {
+    min-height: 75vh;
+  }
+}
+@media (min-width: 992px) {
+  section.header-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
