@@ -7031,6 +7031,7 @@ textarea.form-control-lg {
 }
 
 .overflow-auto {
+  height: 250px;
   overflow: auto !important;
 }
 
