@@ -11035,7 +11035,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 90%;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
