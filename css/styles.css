@@ -7723,7 +7723,7 @@ textarea.form-control-lg {
 }
 
 .mb-6 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .mb-auto {
@@ -10881,7 +10881,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  padding-top: 3.375rem;
+  padding-top: 3rem;
   color: #6c757d;
 }
 
@@ -11005,7 +11005,7 @@ section.header-section {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   max-width: 75rem;
 }
 section.header-section .header-section-content {
@@ -11021,7 +11021,7 @@ section.header-section .header-section-content {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -11030,8 +11030,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -11040,7 +11040,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 75vh;
+    min-height: 50vh;
   }
 }
 @media (min-width: 992px) {
