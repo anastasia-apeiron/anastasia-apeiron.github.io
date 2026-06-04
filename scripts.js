@@ -9,10 +9,10 @@ themeToggleBtn.addEventListener('click', () => {
     if (currentTheme === 'dark') {
         // Switch back to light mode variables
         document.documentElement.removeAttribute('data-theme');
-        themeToggleBtn.textContent = '☀️ Eco Mode';
+        themeToggleBtn.textContent = '☀️ Light';
     } else {
         // Apply dark mode variables
         document.documentElement.setAttribute('data-theme', 'dark');
-        themeToggleBtn.textContent = '🌙 Bio-Lume';
+        themeToggleBtn.textContent = '🌙 Dark';
     }
 });

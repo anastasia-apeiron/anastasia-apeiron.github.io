@@ -195,7 +195,6 @@ a:hover {
 }
 
 .blog-post::after {
-    content: '🍃';
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -228,10 +227,11 @@ a:hover {
     color: var(--primary-color);
 }
 
-.post-excerpt {
+.post-text {
     margin-bottom: 1.5rem;
     color: var(--text-color);
-    opacity: 0.85;
+    font-size: large;
+    opacity: 1;
 }
 
 .read-more-btn {
