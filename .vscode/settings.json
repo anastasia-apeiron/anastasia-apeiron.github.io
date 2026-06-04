@@ -1,0 +1,5 @@
+{
+    "chat.extensionUnification.enabled": false,
+    "terminal.integrated.tabs.allowAgentCliTitle": false,
+    "chat.titleBar.signIn.enabled": false
+}
