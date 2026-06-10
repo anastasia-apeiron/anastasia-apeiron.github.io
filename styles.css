@@ -251,6 +251,31 @@ a:hover {
     color: var(--nav-bg) !important;
 }
 
+
+.collapsible {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--nav-bg));
+    color: var(--bg-color) !important;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(46, 125, 50, 0.2);
+}
+
+.active, .collapsible:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(46, 125, 50, 0.3);
+    background: var(--accent-color);
+    color: var(--nav-bg) !important;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
 /* --- MOBILE VIEW --- */
 @media (max-width: 768px) {
     .main-container {
@@ -269,4 +294,6 @@ a:hover {
         gap: 1rem;
         text-align: center;
     }
+    
+
 }
